@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #ef8e7d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+i {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0px 10px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* estilar los p */
+
+section {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  text-align: center;
+  /* margin: 40px; */
+}
+
+.container {
+  display: flex;
+  background-color: #dee7e7;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5%; */
+  /* height: 50vh; */
+  border-radius: 2rem;
+}
+
+.container p {
+  color: black;
+  font-size: 2rem;
+  line-height: 3rem;
+  /* position: relative;
+  top: 20vh; */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* footer */
+
+footer {
+  background-color: #ef8e7d;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#copy {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 0px 15px;
+  text-shadow: 5px 3px 10px rgba(0, 0, 0, 10);
+}
+
+.foot-link {
+  list-style: none;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  gap: 2rem;
+  padding: 0rem 2rem;
+}
+
+.links:hover {
+  padding: 10px 10px;
+  background-color: black;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  /* text-shadow: 7px 6px 4px rgba(0, 0, 0, 0.77); */
+}
+
+.redes img {
+  height: 60px;
+  width: 60px;
+  border: 2px dashed black;
+}
+
+.redes img:hover {
+  box-shadow: 5px 5px 10px black;
+  border-radius: 1.2rem;
+  transition: 0.5s ease-in-out;
+}
+
+.redes img:nth-child(1) {
+  box-shadow: 5px 5px 20 white;
+  border-radius: 1.8rem;
+}
